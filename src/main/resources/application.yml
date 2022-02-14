@@ -1,0 +1,10 @@
+server:
+  error:
+    include-message: always
+
+spring:
+  profiles:
+    active: local
+task:
+  template:
+    allowMultipleTasks: false
