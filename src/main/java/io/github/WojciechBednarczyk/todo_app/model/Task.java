@@ -32,9 +32,9 @@ public class Task{
     public Task() {
     }
 
-    public Task(boolean done, String description) {
-        this.done = done;
-        this.description = description;
+    public Task(String description, LocalDateTime deadline){
+        this.description=description;
+        this.deadline=deadline;
     }
 
     public void updateFrom(final Task source){

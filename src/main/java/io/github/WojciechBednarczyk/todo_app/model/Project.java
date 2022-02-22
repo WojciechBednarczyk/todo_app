@@ -23,6 +23,6 @@ public class Project {
     @Getter(AccessLevel.PACKAGE) @Setter(AccessLevel.PACKAGE)
     private Set<TaskGroup> groups;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "project")
-    @Getter(AccessLevel.PACKAGE) @Setter(AccessLevel.PACKAGE)
+    @Getter @Setter
     private Set<ProjectStep> steps;
 }
