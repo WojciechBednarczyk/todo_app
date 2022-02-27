@@ -29,7 +29,7 @@ public class TaskGroup {
 
     @ManyToOne
     @JoinColumn(name = "project_id")
-    @Getter(AccessLevel.PACKAGE) @Setter(AccessLevel.PACKAGE)
+    @Getter @Setter
     private Project project;
 
 
